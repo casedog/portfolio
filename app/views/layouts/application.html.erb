@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link href='//fonts.googleapis.com/css?family=Roboto:500,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  
+</head>
+<body>
+	<div class="container">
+		<div class= "header">
+			<ul class="pull-left">
+				<li>Welcome</li>
+				<li>Porfolio</li>
+				<li>Blog</li>
+				<li>About</li>
+				<li>Contact</li>
+			</ul>
+			<p class="pull-right">Casey Ruhlander</p>
+		</div>
+
+		<%= yield %>
+		
+		<div class="footer pull-right">
+			<ul>
+				<li><a href="#"><%= image_tag "github17.png" %></a></li>
+				<li><a href="#"><%= image_tag "linkedin1.png" %></a></li>
+				<li><a href="#"><%= image_tag "logo22.png" %></a></li>
+			</ul>
+			<p>&copy; 2015 Casey Ruhlander</p>
+		</div>	
+	</div>
+</body>
+</html>

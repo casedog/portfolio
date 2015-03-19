@@ -1,0 +1,63 @@
+/*// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/*/
+
+html body {
+	font-family: Roboto;
+}
+
+.container {
+	width: 970px;
+}
+
+.btn {
+	padding: 20px 40px;
+	background-color: #33B7E9;
+	color: #fff;
+	border-radius: 0px
+}
+
+.header {
+	height: 100px;
+	line-height: 100px;
+	background-color: #fff;
+	padding-left: 0px;
+}
+
+.header ul {
+	list-style-type: none;
+	color: #000;
+	padding-left: 0px;
+}
+
+.header li {
+	display: inline;
+	padding-left: 0px;
+	padding-right: 15px;
+}
+
+.main {
+	text-align: right;
+	height: 600px;
+	background-size: 100%;
+	background-image: image-url('photo-1414849424631-8b18529a81ca.jpg');
+	padding: 50px;
+}
+
+.footer {
+	height: 300px;
+	background-color: #fff;
+	text-align: right;
+}
+
+.footer ul {
+	list-style-type: none;
+	color: #000;
+	margin-top: 100px;
+}
+
+.footer li {
+	display: inline;
+	padding-left: 0px;
+	padding-right: 15px;
+}
