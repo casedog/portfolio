@@ -44,5 +44,8 @@ group :development, :test do
   gem 'spring'
 
 gem 'rails_12factor', group: :production
+
+gem 'unslider-rails', github: 'nunopolonia/unslider-rails'
+
 end
 
