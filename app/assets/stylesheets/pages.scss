@@ -42,6 +42,13 @@ html body {
 	background-size: 100%;
 	background-image: image-url('photo-1414849424631-8b18529a81ca.jpg');
 	padding: 50px;
+} 
+
+.p-main {
+	text-align: right;
+	height: 600px;
+	background-size: 100%;
+	padding: 50px;
 }
 
 .footer {
@@ -60,4 +67,8 @@ html body {
 	display: inline;
 	padding-left: 0px;
 	padding-right: 15px;
+}
+
+.thumb img {
+	max-width: 100%
 }
