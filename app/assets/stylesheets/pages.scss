@@ -46,8 +46,6 @@ html body {
 
 .p-main {
 	text-align: right;
-	height: 600px;
-	background-size: 100%;
 	padding: 50px;
 }
 
@@ -70,5 +68,9 @@ html body {
 }
 
 .thumb img {
+	max-width: 100%
+}
+
+.banner img {
 	max-width: 100%
 }
